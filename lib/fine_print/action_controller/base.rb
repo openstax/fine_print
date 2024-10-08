@@ -115,4 +115,6 @@ module FinePrint
   end
 end
 
-::ActionController::Base.send :include, FinePrint::ActionController::Base
+ActiveSupport.on_load(:action_controller_base) do
+  ::ActionController::Base.send :include, FinePrint::ActionController::Base
+end
