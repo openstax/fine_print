@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'action_interceptor'
   s.add_dependency 'responders'
 
-  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'sqlite3', '~> 1.4'
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'factory_bot_rails'
   s.add_development_dependency 'rails-controller-testing'

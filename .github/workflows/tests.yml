@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0
+          ruby-version: 3.1
           bundler-cache: true
       - name: Setup
         run: bundle exec rake --trace db:create db:schema:load db:seed
