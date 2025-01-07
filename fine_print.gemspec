@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version     = FinePrint::VERSION
   s.authors     = ['JP Slavinsky', 'Dante Soares']
   s.email       = ['dms3@rice.edu']
-  s.homepage    = 'http://github.com/lml/fine_print'
+  s.homepage    = 'http://github.com/openstax/fine_print'
   s.license     = 'MIT'
   s.summary     = 'Manages site agreements with versioning.'
   s.description = 'FinePrint allows site admins to easily create, update and ask users to sign site agreements, keeping a record of when users signed a certain version of each agreement.'
