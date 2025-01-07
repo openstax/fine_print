@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = 'Manages site agreements with versioning.'
   s.description = 'FinePrint allows site admins to easily create, update and ask users to sign site agreements, keeping a record of when users signed a certain version of each agreement.'
 
-  s.files = Dir['{app,config,db,lib}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
+  s.files = Dir['{app,config,db,lib,spec/factories/fine_print}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
 
   s.add_dependency 'rails', '< 7'
   s.add_dependency 'jquery-rails'
